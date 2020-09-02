@@ -1,14 +1,17 @@
 import React from 'react';
 import { MainContainer, InfoContainer, ImageContainer } from './Sides';
 import NavBar from '../../containers/NavBar';
-// import PropTypes from 'prop-types';
+import MainImage from '../../components/elements/MainImage';
+
 
 const Home = () => (
   <>
     <NavBar>Navbar</NavBar>
     <MainContainer>
       <InfoContainer>texto y todo</InfoContainer>
-      <ImageContainer> imagen chida </ImageContainer>
+      <ImageContainer>
+        <MainImage />
+      </ImageContainer>
     </MainContainer>
   </>
 );
