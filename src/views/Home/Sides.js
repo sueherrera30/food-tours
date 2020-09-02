@@ -6,6 +6,9 @@ const MainContainer = styled.div`
   height: 100vh;
   display: grid;
   grid-template-columns: 40% 60%;
+  @media (max-width: 768px) {
+    grid-template-columns: 100%;
+  }
 
 `;
 
@@ -15,6 +18,9 @@ const InfoContainer = styled.div`
 
 const ImageContainer = styled.div`
   background-color: pink;
+  @media (max-width: 425px) {
+    display: none;
+  }
 `;
 
 export {
