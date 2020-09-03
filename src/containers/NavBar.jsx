@@ -1,16 +1,33 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const MainContainer = styled.div`
-  background-color: papayawhip;
-  width: 100%;
-  height: 60px;
-`;
+import TextNavbarContainer from '../components/textComponents/TextNavbar';
+import LogoText from '../components/textComponents/LogoText';
+import Notification from '../components/elements/Notification';
+import navOptions from './store';
+import NavButton from '../components/elements/NavButton';
+import { MainContainer, OptionsContainer } from '../components/elements/Wrappers';
 
 const NavBar = () => (
-  <MainContainer>
-    Hola nav!
-  </MainContainer>
+  <>
+    <MainContainer>
+      <LogoText>Sunshine</LogoText>
+      <OptionsContainer> 
+        {
+          navOptions.map(option => (
+          <TextNavbarContainer key={option.id}>
+            {
+               option.notification ? <Notification /> : null
+            }
+            <p>
+              {option.name}
+            </p> 
+          </TextNavbarContainer>
+          ))
+        }
+        <NavButton>login</NavButton>
+      </OptionsContainer>
+
+    </MainContainer>
+  </>
 );
 
 export default NavBar;

@@ -3,7 +3,6 @@ import { MainContainer, InfoContainer, ImageContainer } from './Sides';
 import NavBar from '../../containers/NavBar';
 import MainImage from '../../components/elements/MainImage';
 
-
 const Home = () => (
   <>
     <NavBar>Navbar</NavBar>
