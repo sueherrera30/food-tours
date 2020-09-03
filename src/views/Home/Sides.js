@@ -11,7 +11,7 @@ const MainContainer = styled.div`
 
 `;
 const InfoContainer = styled.div`
-  background-color: lightcyan;
+  height: 100%;
 `;
 
 const ImageContainer = styled.div`
