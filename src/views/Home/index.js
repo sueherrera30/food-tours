@@ -4,14 +4,16 @@ import NavBar from '../../containers/NavBar';
 import MainImage from '../../components/elements/MainImage';
 import Title from '../../components/textComponents/Title';
 import Subtitle from '../../components/textComponents/Subtitle';
+import SearchElement from '../../containers/SearchElement';
 
 const Home = () => (
   <>
     <NavBar>Navbar</NavBar>
     <MainContainer>
       <InfoContainer>
-        <Title> Explore food & wine tours</Title>
+        <Title> Explore food & wine tours </Title>
         <Subtitle>Lovely illustrations are here to become your favourites</Subtitle>
+        <SearchElement/>
       </InfoContainer>
       <ImageContainer>
         <MainImage />
