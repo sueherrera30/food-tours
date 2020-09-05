@@ -14,6 +14,11 @@ const NavButton = styled.button.attrs(props => ({
   height: 30px;
   min-width: 65px; 
   font-weight: 600;
+  outline: none;
+  :hover {
+    color: papayawhip;
+    background: #c9e6c4;
+  }
 `
 
 export default NavButton; 

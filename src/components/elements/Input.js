@@ -6,9 +6,11 @@ const Input = styled.input.attrs({
  width: 50%;
  height: 40px;
  border-radius: 35px;
- background: #	#F5F5F5;
+ background: #F5F5F5;
  font-family: 'Quicksand', sans-serif;
  border-color: transparent;
+ outline: none;
+ padding: 0 16px;
 `;
 
 export default Input;
