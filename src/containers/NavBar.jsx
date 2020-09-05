@@ -23,7 +23,7 @@ const NavBar = () => (
           </TextNavbarContainer>
           ))
         }
-        <NavButton>login</NavButton>
+        <NavButton onClick={() => alert('Hi coach!')}>login</NavButton>
       </OptionsContainer>
 
     </MainContainer>
