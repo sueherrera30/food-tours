@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ImageCardContainer = styled.div`
- width: 110px;
+ width: 100px;
  height: 80px;
 `;
 

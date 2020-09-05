@@ -2,12 +2,27 @@ import  Grapes from '../images/grapes.jpg';
 import  Toscana from '../images/toscana.jpg';
 import  Sicily from '../images/sicily.jpeg';
 
-const imagesCard = [
-  Grapes,
-  Toscana,
-  Sicily,
-
+const cardInformation = [
+  {
+    image: Grapes,
+    title: 'Tuscany Hills and Wine',
+    text: 'Departure to the charming town of Montepulciano, a medieval treassure..',
+    id: 1,
+  },
+  {
+    image: Toscana,
+    title: 'Tringle of Art',
+    text: 'Arrivw in assisi and start to explore this"middle age town..',
+    id: 2,
+  },
+  {
+    image: Sicily,
+    title: 'Sicily Tour',
+    text: 'Arrival in Catania Ariport, transfer to the hotel in syraccuse..',
+    id: 3,
+  },
 ];
+
 const navOptions = [
     {
       name: 'Hot',
@@ -56,5 +71,5 @@ const navOptions = [
   export {
     navOptions,
     tagsOptions,
-    imagesCard,
+    cardInformation,
   } 

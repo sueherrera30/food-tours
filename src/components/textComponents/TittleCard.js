@@ -5,7 +5,7 @@ const TitleCard = styled.p`
   color: #000000;
   font-size: 16px;
   font-weight: 600;
-  padding: 0 20px;
+  padding: 0 15px;
   margin: 8px 0;
   text-transform: capitalize;
 `;

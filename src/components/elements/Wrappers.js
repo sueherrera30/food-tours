@@ -30,7 +30,7 @@ const TagsWrapper = styled.div`
 const CardWrapper = styled.div`
 display: flex;
 height: auto;
-min.height: 100px
+min-height: 100px;
 align-items: center;
 justify-content: space-between;
 margin : 0 20px;
