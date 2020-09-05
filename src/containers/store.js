@@ -1,3 +1,13 @@
+import  Grapes from '../images/grapes.jpg';
+import  Toscana from '../images/toscana.jpg';
+import  Sicily from '../images/sicily.jpeg';
+
+const imagesCard = [
+  Grapes,
+  Toscana,
+  Sicily,
+
+];
 const navOptions = [
     {
       name: 'Hot',
@@ -46,4 +56,5 @@ const navOptions = [
   export {
     navOptions,
     tagsOptions,
+    imagesCard,
   } 

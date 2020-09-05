@@ -18,13 +18,24 @@ const SearchWrapper = styled.div`
   display: flex;
   align-items: center;
   margin: 0 20px;
+  width: calc(100% - 120px);
 `;
 const TagsWrapper = styled.div`
   display: flex;
   align-items: center;
   margin:  60px 20px;
   justify-content: space-around;
-  width: calc(100% - 220px);
+  width: calc(100% - 180px);
+`;
+const CardWrapper = styled.div`
+display: flex;
+height: auto;
+min.height: 100px
+align-items: center;
+justify-content: space-between;
+margin : 0 20px;
+width: calc(100% - 180px);
+border-bottom: solid 1px lightgray;
 `;
 
 export {
@@ -32,4 +43,5 @@ export {
  OptionsContainer,
  SearchWrapper,
  TagsWrapper,
+ CardWrapper,
 };
