@@ -23,7 +23,8 @@ const SearchWrapper = styled.div`
 const TagsWrapper = styled.div`
   display: flex;
   align-items: center;
-  margin:  60px 20px;
+  margin: 20px;
+  margin-top: 60px;
   justify-content: space-around;
   width: calc(100% - 180px);
 `;

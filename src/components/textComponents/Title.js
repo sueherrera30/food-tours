@@ -6,7 +6,7 @@ const Title = styled.p`
   font-size: 65px;
   width: 80%;
   font-weight: 600;
-  padding: 20px;
+  padding: 0 20px;
   margin: 0;
 `;
 
