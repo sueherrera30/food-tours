@@ -4,12 +4,8 @@ import Search from '../../images/search.svg'
 const Icon = styled.img.attrs(props => ({
     src: Search,
   }))`
-  width: 20px;
-  height: 20px;
-  :hover {
-    color: #eb7068;
-    background: #F5F5F5;
-  }
+  width: 15px;
+  height: 15px;
 `
 const SearchButton = styled.button.attrs(props => ({
     type: 'button',
@@ -28,7 +24,7 @@ const SearchButton = styled.button.attrs(props => ({
   margin-left: 10px;
   :hover {
     color: #eb7068;
-    background: #F5F5F5;
+    background: darkcyan;
   }
 `
 

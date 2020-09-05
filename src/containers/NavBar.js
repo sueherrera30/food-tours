@@ -2,7 +2,7 @@ import React from 'react';
 import TextNavbarContainer from '../components/textComponents/TextNavbar';
 import LogoText from '../components/textComponents/LogoText';
 import Notification from '../components/elements/Notification';
-import navOptions from './store';
+import { navOptions } from './store';
 import NavButton from '../components/elements/NavButton';
 import { MainContainer, OptionsContainer } from '../components/elements/Wrappers';
 

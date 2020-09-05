@@ -19,9 +19,17 @@ const SearchWrapper = styled.div`
   align-items: center;
   margin: 0 20px;
 `;
+const TagsWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  margin:  60px 20px;
+  justify-content: space-around;
+  width: calc(100% - 220px);
+`;
 
 export {
  MainContainer, 
  OptionsContainer,
  SearchWrapper,
+ TagsWrapper,
 };
