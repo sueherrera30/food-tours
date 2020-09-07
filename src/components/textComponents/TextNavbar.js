@@ -12,6 +12,9 @@ const TextNavbarContainer = styled.div`
    color: #000000;
    font-size: 14px;
    font-weight: 600;
+   @media (max-width: 320px) {
+    font-size: 10px;
+   }
   }
 `;
 

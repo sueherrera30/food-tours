@@ -11,6 +11,9 @@ const LinkCard = styled.a`
  :hover {
   text-decoration: underline;
  }
+ @media (max-width: 320px) {
+    font-size: 8px;
+   }
 `;
 
 export default LinkCard; 

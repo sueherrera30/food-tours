@@ -17,6 +17,9 @@ const Tag = styled.div`
  :hover {
      background: papayawhip;
  }
+ @media (max-width: 320px) {
+    font-size: 10px;
+   }
 `;
 
 const ActiveTag = styled.div`

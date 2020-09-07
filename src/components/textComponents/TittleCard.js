@@ -8,6 +8,9 @@ const TitleCard = styled.p`
   padding: 0 15px;
   margin: 8px 0;
   text-transform: capitalize;
+  @media (max-width: 320px) {
+    font-size: 12px;
+   }
 `;
 
 export default TitleCard; 

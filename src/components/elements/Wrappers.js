@@ -25,6 +25,14 @@ const SearchWrapper = styled.div`
   align-items: center;
   margin: 0 20px;
   width: calc(100% - 120px);
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   }
+   @media (max-width: 320px) {
+    width: 100%;
+   }
 `;
 const TagsWrapper = styled.div`
   display: flex;
@@ -33,6 +41,12 @@ const TagsWrapper = styled.div`
   margin-top: 60px;
   justify-content: space-around;
   width: calc(100% - 180px);
+  @media (max-width: 425px) {
+    width: calc(100% - 40px);
+   }
+   @media (max-width: 320px) {
+    width: calc(100% - 20px);
+   }
 `;
 const CardWrapper = styled.div`
 display: flex;
@@ -43,6 +57,9 @@ justify-content: space-between;
 margin : 0 20px;
 width: calc(100% - 180px);
 border-bottom: solid 1px lightgray;
+@media (max-width: 425px) {
+  width: auto;
+ }
 `;
 
 export {

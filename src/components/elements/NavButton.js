@@ -19,6 +19,10 @@ const NavButton = styled.button.attrs(props => ({
     color: papayawhip;
     background: #c9e6c4;
   }
+  @media (max-width: 320px) {
+    font-size: 10px;
+    padding: 4px;
+   }
 `
 
 export default NavButton; 

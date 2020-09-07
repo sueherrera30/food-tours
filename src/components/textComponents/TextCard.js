@@ -7,8 +7,11 @@ const TextCard = styled.p`
  font-weight: 600;
  padding: 0 15px;
  margin: 0;
+ @media (max-width: 320px) {
+  font-size: 10px;
+ }
 `;
-const TextCardContainer = styled.p`
+const TextCardContainer = styled.div`
   width: 100%;
   margin: 0;
 }
