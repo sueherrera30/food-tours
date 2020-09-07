@@ -30,7 +30,7 @@ const SearchWrapper = styled.div`
     justify-content: center;
     margin-top: 20px;
    }
-   @media (max-width: 320px) {
+   @media (max-width: 425px) {
     width: 100%;
    }
 `;
