@@ -7,6 +7,9 @@ const LogoText = styled.span`
   font-size: 14px;
   font-weight: 600;
   padding: 0 20px;
+  @media (max-width: 425px) {
+    display: none;
+   }
 `;
 
 export default LogoText; 

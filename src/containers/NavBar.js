@@ -11,7 +11,7 @@ const NavBar = () => (
     <MainContainer>
       <LogoText>Sunshine</LogoText>
       <OptionsContainer> 
-        {
+        {   
           navOptions.map(option => (
           <TextNavbarContainer key={option.id}>
             {

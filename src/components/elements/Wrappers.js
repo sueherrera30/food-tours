@@ -13,6 +13,12 @@ const OptionsContainer = styled.div`
   align-items: center;
   height: 100%;
   width:  30%;
+  @media (max-width: 1024px) {
+    width: 50%;
+   }
+   @media (max-width: 425px) {
+    width: 100%;
+   }
 `;
 const SearchWrapper = styled.div`
   display: flex;
